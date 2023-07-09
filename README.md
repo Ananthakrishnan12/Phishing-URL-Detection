@@ -13,18 +13,26 @@ Type pip install -r requirnments.txt in (cmd prompt)
 
 # Steps which are Implemented in this Model:
 1.Data collection (https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls)
+
 2.Data Description
+
 3.Data Preprocessing:
                 a) check duplicates in the data
                 b) cleaning /?@ symbol form the URL
+
 4.Data Transformation:
                 a) Converting Text into Numerical using Countvectorizer
+
 5.Resampling Method:
                 a) converting Imbalanced data into Balanced data using SMOTE
+
 6.Model Training:
                 a) Logistic Regression
                 b) Random Forest Classifier
+
 7.Evaluation Metrics:
                 a)ConfusionMatrix,precision score,recall score,accuracy score
+
 8.Formatting to Pickle.
+
 9.Prediction. 
